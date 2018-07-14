@@ -52,7 +52,7 @@ class Customers():
         else:
             print('Invalid Record')
      
-    # Insert a  record    
+    # Delete a  record    
     def deleteARecord(self,ID):
         try:
             self.allRecords.delete_one({"account_id" :ID})
